@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Mohd Sofhie Profile</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#329da8;
+}
+
+/* Small Header Profile Image */
+#gmbrprofile{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:60px;
+}
+
+/* Header */
+header{
+    background-color: #4ebeca;
+    padding:12px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:100px;
+}
+
+header h1{
+    color:Darkblue;
+    font-family:"Bodoni MT";
+    font-size:50px;
+    margin:0;
+}
+
+h3{
+  color:Blue;
+  font-family:"Arial";
+}
+
+/* Navigation */
+.topnav{
+    background-color:#333;
+    overflow:hidden;
+}
+
+.topnav a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-decoration:none;
+    padding:14px 16px;
+}
+
+.topnav a:hover{
+    background-color:#ddd;
+    color:black;
+}
+
+/* White Box Container */
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:10px;
+    border-radius:15px;
+    display:flex;
+    align-items:flex-start;
+    gap:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Main Image */
+.container img{
+    width:230px;
+    border-radius:12px;
+    object-fit:cover;
+}
+
+/* Text */
+.content{
+    flex:1;
+    text-align:justify;
+    line-height:1.2;
+    color:#333;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:black;
+}
+
+/* Responsive */
+@media screen and (max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+header h1{
+    font-size:24px;
+    text-align:center;
+}
+
+#gmbrprofile{
+    width:50px;
+    height:50px;
+}
+
+.container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.container img{
+    width:100%;
+}
+
+.content{
+    text-align:justify;
+}
+
+.topnav a{
+    float:none;
+    width:100%;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <img id="gmbrprofile" src="Profile.jpg" alt="gambar profile FD">
+    <h1>Mohd Sofhie's Profile</h1>
+</header>
+
+<!-- Navigation -->
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a style="color:yellow;"href="profile.html"><b>Profile</b></a>
+    <a href="edu.html">Education</a>
+    <a href="Exp.html">Experience</a>
+    <a href="interest.html">Interest</a>
+    <a href="contact.html">Contact Me</a>
+</div>
+
+<!-- White Box Section -->
+<div class="container">
+
+    <!-- Image -->
+    <img src="Myself3.jpg" alt="Profile Picture">
+
+    <!-- Paragraph -->
+    <div class="content">
+   
+    <h3><ins>My Background</ins></h3>
+    <br>
+    <ul>
+    <li>Date of birth : <b>2nd February 1980.</b></li>
+    <li>Place of birth : <b>Hospital Kluang, Johor Darul Takzim.</b></li>
+    <li>Number of siblings: <b>6 (The oldest)</b></li>
+    <br>
+    <h3><ins>My Family</ins></h3>
+    <br>
+    <li>Spouse Name : <b>Norhashira Binti Sobri</b></li>
+    <br>
+    </ul>
+    <li>Children Name :</li>
+    <br>
+    <ol>
+    <b><li>Balqis Wirdani (21 years old)</li>
+    <li>Adriana Sofhie (19 years old)</li>
+    <li>Adam Mikhael Zidyad Zildan (10 years old)</li></b>
+    </ol>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <small>
+  Copyright © MSS2026 |
+  Last Update: MAY'26 |
+  Best Viewed: Google Chrome |
+  Best Display: Any device with max-width: 600px
+  </small>
+</footer>
+
+</body>
+</html>

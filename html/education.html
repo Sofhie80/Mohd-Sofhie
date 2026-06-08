@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohd Sofhie's Education</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#329da8;
+}
+
+/* Header */
+header{
+    background-color:#4ebeca;
+    padding:12px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:100px;
+}
+
+#gmbrprofile{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:60px;
+}
+
+header h1{
+    color:darkblue;
+    font-family:"Bodoni MT";
+    font-size:50px;
+}
+
+/* Navigation */
+.topnav{
+    overflow:hidden;
+    background-color:#333;
+}
+
+.topnav a{
+    float:left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+.topnav a:hover{
+    background:#ddd;
+    color:black;
+}
+
+.topnav a.active{
+    color:yellow;
+    font-weight:bold;
+}
+
+/* Main Container */
+.container{
+    width:95%;
+    margin:30px auto;
+}
+
+h2{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+/* Education Section */
+.education-section{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+/* Education Logo */
+.education-logo{
+    flex:0 0 250px;
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.education-logo img{
+    width:100%;
+    max-width:220px;
+    height:auto;
+}
+
+.education-logo h3{
+    margin-top:12px;
+    color:#003366;
+}
+
+/* Table Area */
+.table-area{
+    flex:1;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+th, td{
+    border:1px solid black;
+    padding:12px;
+    text-align:center;
+}
+
+th{
+    background-color:#D6EEEE;
+}
+
+tr:nth-child(even){
+    background-color:#f5f5f5;
+}
+
+tr:hover{
+    background-color:#ddd;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:black;
+}
+
+/* Responsive */
+@media screen and (max-width:768px){
+
+.topnav a{
+      float:none;
+      width:100%;
+}
+
+.education-section{
+      flex-direction:column;
+      align-items:center;
+}
+
+.education-logo{
+      width:80%;
+      max-width:300px;
+}
+
+table{
+      font-size:14px;
+}
+
+th, td{
+      padding:8px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img id="gmbrprofile" src="Profile.jpg" alt="Profile">
+    <h1>Mohd Sofhie's Education</h1>
+</header>
+
+<div class="topnav">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a class="active" href="edu.html">Education</a>
+        <a href="Exp.html">Experience</a>
+        <a href="interest.html">Interest</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+</div>
+
+<div class="container">
+
+<h2>History of Education</h2>
+
+<div class="education-section">
+
+<!-- Education Logo -->
+  <div class="education-logo">
+  <img src="Education.jpeg" alt="Education Logo">
+  <p><i>Learning is a lifelong process that builds knowledge, skills and experience.</i></p>
+</div>
+
+<!-- Education Table -->
+<div class="table-area">
+
+<table>
+   <tr>
+      <th>Education Level</th>
+      <th>Institution Name</th>
+      <th>Year</th>
+      <th>Links</th>
+   </tr>
+
+   <tr>
+      <td>Early Childhood</td>
+      <td>Tadika Kemas Kg. Majidee, Kluang, Johor</td>
+      <td>1986</td>
+      <td>N/A</td>
+   </tr>
+
+   <tr>
+      <td>Primary School #1</td>
+      <td>Sek. Keb. Selabak, Teluk Intan, Perak</td>
+      <td>1987 – 1989</td>
+      <td><a href="https://www.facebook.com/SKSELABAK/" target="_blank">SK Selabak</a></td>
+   </tr>
+   <tr>
+      <td>Primary School #2</td>
+      <td>Sek. Keb. Seri Chantek, Batu Pahat, Johor</td>
+      <td>1989 – 1992</td>
+      <td><a href="https://www.facebook.com/p/SK-SERI-Chantek-jba0010-100083655814296/" target="_blank">SK Seri Chantek</a></td>
+   </tr>
+
+   <tr>
+      <td>Secondary School #1</td>
+      <td>Sek. Men. Penghulu Saat, Batu Pahat, Johor</td>
+      <td>1993 – 1995</td>
+      <td><a href="https://www.facebook.com/smk.penghulusaat/" target="_blank">SMK Penghulu Saat</a></td>
+   </tr>
+
+   <tr>
+      <td>Secondary School #2</td>
+      <td>Sek. Men. Teknik Batu Pahat, Johor</td>
+      <td>1996 – 1997</td>
+      <td><a href="https://www.facebook.com/kvbatupahatjohor/" target="_blank">SMT Batu Pahat</a></td>
+   </tr>
+
+   <tr>
+     <td>Diploma (In Progress)</td>
+     <td>UiTM Shah Alam</td>
+     <td>2024 – 2027</td>
+     <td><a href="https://www.uitm.edu.my/en/" target="_blank">UiTM Shah Alam</a></td>
+   </tr>
+   </table>
+
+    </div>
+
+</div>
+
+<audio autoplay loop>
+    <source src="Audio 3.ogg" type="audio/ogg">
+    <source src="Audio 3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+</div>
+
+<footer>
+    <small>
+        Copyright © MSS2026 |
+        Last Update: MAY'26 |
+        Best Viewed: Google Chrome |
+        Best Display: Any device with max-width: 600px
+    </small>
+</footer>
+
+</body>
+</html>

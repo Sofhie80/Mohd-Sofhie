@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mohd Sofhie Profile</title>
+
+<style>
+ * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#329da8;
+}
+
+/* Small Header Profile Image */
+#gmbrprofile{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-right:60px;
+}
+
+/* Header */
+header{
+   background-color: #4ebeca;
+   padding:12px 20px;
+   display:flex;
+   align-items:center;
+   justify-content:flex-start;
+   gap:100px;
+}
+
+header h1 {
+  color:Darkblue;
+  font-family:"Bodoni MT";
+  font-size:50px;
+  margin:0;
+}
+
+/* Navigation */
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active Menu */
+ .container {
+ width: 900px;
+ margin: 40px auto;
+ display: flex;
+ align-items: flex-start;
+ gap: 30px;
+ text-align: justify;
+}
+
+/* Main Content */
+  .container {
+  width: 95%;
+  margin: 30px auto;
+}
+
+  .container img {
+  width: 180px;
+  border-radius: 16px;
+   }
+
+h3 {
+  color: yellow;
+  margin-bottom: 8px;
+}
+
+  .section-title p {
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+/* Table Style */
+  table {
+  width: 160%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+  th,td {
+     border: 1px solid #000;
+     padding: 14px;
+     text-align: center;
+     }
+
+  th {
+     background-color: #D6EEEE;
+     color: black;
+     }
+
+   tr:nth-child(even) {
+     background-color: #f5f5f5;
+     }
+
+   tr:hover {
+     background-color: #ddd;
+     }
+
+/* Footer */
+   footer {
+   text-align:center;
+   padding:20px;
+   font-size:14px;
+   color:black;
+}
+
+/* Responsive Design */
+   @media screen and (max-width: 768px) {
+
+   .topnav a {
+   float: none;
+   width: 100%;
+   text-align: left;
+   }
+
+/* Profile Image */
+#gmbrprofile{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+   table {
+     font-size: 14px;
+   }
+
+   th,
+   td {
+     padding: 10px;
+   }
+
+   header h1 {
+     font-size: 28px;
+   }
+
+   .section-title h2 {
+   font-size: 24px;
+   }
+ }
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+<img id="gmbrprofile" src="Profile.jpg" alt="gambar profile FD">
+<h1>Mohd Sofhie's Experiences</h1>
+</header>
+
+<!-- Navigation -->
+<div class="topnav">
+<nav>
+  <a href="index.html">Home</a>
+  <a href="profile.html">Profile</a>
+  <a href="edu.html">Education</a>
+  <a style="color:yellow;" href="Exp.html"><b>Experience</b></a>
+  <a href="interest.html">Interest</a>
+  <a href="contact.html">Contact Me</a>
+</nav>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+
+<div class="section-title">
+  <h3>Assembly Services Sdn. Bhd., Selangor</h3>
+  <p><b>[ Toyota Assembly Plant ]</b></p>
+
+<!-- Left Image -->
+<img src="Toyota Sofhie.jpg" alt="Profile Picture">
+
+</div>
+
+<table>
+ <tr>
+ <th>Year</th>
+ <th>Position</th>
+ <th>Job Description</th>
+  </tr>
+
+ <tr>
+ <td>2003</td>
+ <td>Operator</td>
+ <td>Receiving, storage and supplying car components to the production line.</td>
+ </tr>
+
+ <tr>
+ <td>2005</td>
+ <td>Operator</td>
+ <td>Setup and preparation for Toyota new model component storage and supply methods.</td>
+ </tr>
+
+ <tr>
+ <td>2009</td>
+ <td>Planner</td>
+ <td>Planning and setup for Toyota new model component storage and supply systems.</td>
+ </tr>
+
+ <tr>
+ <td>2011</td>
+ <td>Planner</td>
+ <td>Logistics operation planning and component distribution management.</td>
+ </tr>
+
+ <tr>
+ <td>2018</td>
+ <td>Senior Planner</td>
+ <td>Setup and planning for logistics operations at the new Bukit Raja plant.</td>
+ </tr>
+
+ <tr>
+ <td>2020~Present</td>
+ <td>Senior Planner</td>
+ <td>Managing logistics operations, cost planning and operational improvements.</td>
+ </tr>
+
+</table>
+
+<audio autoplay loop>
+  <source src="Audio 2.ogg" type="audio/ogg">
+  <source src="Audio 2.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+<br>
+<!-- Footer -->
+<footer>
+  <small>
+  Copyright © MSS2026 |
+  Last Update: MAY'26 |
+  Best Viewed: Google Chrome |
+  Best Display: Any device with max-width: 600px
+</small>
+  </footer>
+
+</body>
+
+</html>
